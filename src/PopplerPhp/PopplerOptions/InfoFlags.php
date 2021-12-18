@@ -1,12 +1,12 @@
 <?php
 
-namespace NcJoes\PopplerPhp\PopplerOptions;
+namespace Figoware\PopplerPhp\PopplerOptions;
 
-use NcJoes\PopplerPhp\Constants as C;
+use Figoware\PopplerPhp\Constants as C;
 
 /**
  * Trait InfoFlags
- * @package NcJoes\PopplerPhp\PopplerOptions
+ * @package Figoware\PopplerPhp\PopplerOptions
  */
 trait InfoFlags
 {
