@@ -1,16 +1,16 @@
 <?php
 
-namespace NcJoes\PopplerPhp;
+namespace Figoware\PopplerPhp;
 
 use Illuminate\Config\Repository;
-use NcJoes\PopplerPhp\Constants as C;
-use NcJoes\PopplerPhp\Exceptions\PopplerPhpException;
-use NcJoes\PopplerPhp\Helpers as H;
+use Figoware\PopplerPhp\Constants as C;
+use Figoware\PopplerPhp\Exceptions\PopplerPhpException;
+use Figoware\PopplerPhp\Helpers as H;
 
 /**
  * Class Config
  *
- * @package NcJoes\PopplerPhp
+ * @package Figoware\PopplerPhp
  */
 class Config
 {
