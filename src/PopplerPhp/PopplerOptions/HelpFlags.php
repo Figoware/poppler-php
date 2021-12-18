@@ -7,13 +7,13 @@
  * Time:    5:24 PM
  **/
 
-namespace NcJoes\PopplerPhp\PopplerOptions;
+namespace Figoware\PopplerPhp\PopplerOptions;
 
-use NcJoes\PopplerPhp\Constants as C;
+use Figoware\PopplerPhp\Constants as C;
 
 /**
  * Trait HelpFlags
- * @package NcJoes\PopplerPhp\PopplerOptions
+ * @package Figoware\PopplerPhp\PopplerOptions
  */
 trait HelpFlags
 {
