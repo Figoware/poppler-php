@@ -7,19 +7,19 @@
  * Time:    3:36 PM
  **/
 
-namespace NcJoes\PopplerPhp;
+namespace Figoware\PopplerPhp;
 
-use NcJoes\PopplerPhp\Constants as C;
-use NcJoes\PopplerPhp\PopplerOptions\ConsoleFlags;
-use NcJoes\PopplerPhp\PopplerOptions\CredentialOptions;
-use NcJoes\PopplerPhp\PopplerOptions\EncodingOptions;
-use NcJoes\PopplerPhp\PopplerOptions\HtmlOptions;
-use NcJoes\PopplerPhp\PopplerOptions\PageRangeOptions;
-use NcJoes\PopplerPhp\PopplerOptions\TextFlags;
+use Figoware\PopplerPhp\Constants as C;
+use Figoware\PopplerPhp\PopplerOptions\ConsoleFlags;
+use Figoware\PopplerPhp\PopplerOptions\CredentialOptions;
+use Figoware\PopplerPhp\PopplerOptions\EncodingOptions;
+use Figoware\PopplerPhp\PopplerOptions\HtmlOptions;
+use Figoware\PopplerPhp\PopplerOptions\PageRangeOptions;
+use Figoware\PopplerPhp\PopplerOptions\TextFlags;
 
 /**
  * Class PdfToText
- * @package NcJoes\PopplerPhp
+ * @package Figoware\PopplerPhp
  */
 class PdfToText extends PopplerUtil
 {
