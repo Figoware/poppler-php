@@ -17,6 +17,7 @@ use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;
 use function is_array;
 use function is_string;
+use Illuminate\Support\Arr;
 
 /**
  * Class PopplerUtil
@@ -227,7 +228,7 @@ abstract class PopplerUtil
     public function unsetFlag($key)
     {
         if ($this->hasFlag($key))
-            $this->flags = array_except($this->flags, $key);
+            $this->flags = Arr::except($this->flags, $key);
 
         return $this;
     }
